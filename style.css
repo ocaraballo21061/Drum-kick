@@ -1,7 +1,10 @@
 html {
   font-size: 10px;
-  background: url(http://i.imgur.com/b9r5sEL.jpg) bottom center;
-  background-size: cover;
+  background: url(sounds/trumpet-background-croped.jpg) center;
+  background-size: 1100px;
+  background-repeat: no-repeat;
+  background-color: white;
+  
 }
 
 body,html {
@@ -16,6 +19,13 @@ body,html {
   min-height: 100vh;
   align-items: center;
   justify-content: center;
+}
+#title{
+ font-size: 80px;
+ text-align: center;
+ margin: 0px;
+ font-family: sans-serif;
+ text-shadow: 0 0 .5rem cyan;
 }
 
 .key {
